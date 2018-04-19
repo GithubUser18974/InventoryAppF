@@ -1,115 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".EditorActivity"
-    android:layout_marginTop="4dp"
     android:layout_marginLeft="4dp"
-    >
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
     <TextView
+        android:id="@+id/product_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/product_name"
-        android:textColor="@android:color/black"
-        android:text="@string/product_name"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/product_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/product_name_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/product_name"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
+
     <TextView
+        android:id="@+id/product_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/product_price"
-        android:textColor="@android:color/black"
-        android:text="@string/product_price"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/product_price"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/product_price_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/product_price"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
+
     <TextView
+        android:id="@+id/product_quantity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/product_quantity"
-        android:textColor="@android:color/black"
-        android:text="@string/product_quantity"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/product_quantity"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/product_quantity_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/product_quantity"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
+
     <TextView
+        android:id="@+id/supplier_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/supplier_name"
-        android:textColor="@android:color/black"
-        android:text="@string/supplier_name"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/supplier_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/supplier_name_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/supplier_name"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
+
     <TextView
+        android:id="@+id/supplier_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/supplier_phone"
-        android:textColor="@android:color/black"
-        android:text="@string/supplier_phone"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/supplier_phone"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/supplier_phone_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/supplier_phone"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
+
     <TextView
+        android:id="@+id/supplier_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/supplier_email"
-        android:textColor="@android:color/black"
-        android:text="@string/supplier_email"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         android:paddingLeft="8dp"
-        />
+        android:text="@string/supplier_email"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/supplier_email_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/supplier_email"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
 </LinearLayout>
